@@ -250,7 +250,7 @@ const GlideSlopeCalculator = () => {
                 onValueChange={([value]) => setAimPoint(value)}
                 min={500}
                 max={1500}
-                step={100}
+                step={50}
               />
             </div>
           )}
