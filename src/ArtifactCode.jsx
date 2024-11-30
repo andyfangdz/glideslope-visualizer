@@ -77,9 +77,9 @@ const GlideSlopeCalculator = () => {
       {/* Aim point marker top */}
       <rect
         x={1000 * PIXELS_PER_FOOT_HORIZ}
-        y={VIEW_HEIGHT - 100}
+        y={VIEW_HEIGHT - 95}
         width={150 * PIXELS_PER_FOOT_HORIZ}
-        height={15}
+        height={10}
         fill="white"
       />
 
@@ -88,7 +88,7 @@ const GlideSlopeCalculator = () => {
         x={1000 * PIXELS_PER_FOOT_HORIZ}
         y={VIEW_HEIGHT - 75}
         width={150 * PIXELS_PER_FOOT_HORIZ}
-        height={15}
+        height={10}
         fill="white"
       />
 
